@@ -192,9 +192,10 @@ const AboutPage: React.FC = () => {
 
           {/* Our Values */}
           <Box sx={{ mb: 8, textAlign: 'center' }}>
-            <SectionTitle variant="h3" component="h2">
-              قيمنا
-            </SectionTitle>
+            <SectionTitle variant="h3">
+  قيمنا
+</SectionTitle>
+
             <Grid container spacing={4} sx={{ mt: 2 }}>
               <Grid item xs={12} sm={6} md={3}>
                 <Box sx={{ textAlign: 'center', p: 3 }}>
